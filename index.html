@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://kit.fontawesome.com/0b8683428d.js" crossorigin="anonymous"></script>
+<body>
+  <div  id="header">
+    <div class="container">
+        <nav>
+            <img src="image.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Skills</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>IT Engineer.</p><br>
+          <h1>Hi,I'm <span>Sakshi </span> Kadu <br>
+            I’m a 3rd-year IT engineering student from India, passionate about creating innovative solutions through technology.
+            <br>
+            Currently pursuing my BTech in IT, I love crafting user-friendly web applications and exploring the  <br>vast world of technology.</h1>
+        </div>
+    </div>
+  </div>
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+            <img src="passport.jpg" height="600px" width="400px">
+        </div>
+        <div class="about-col-2">
+             <h1 class="sub-title">About me</h1><br>
+             <p>Hi, I'm Sakshi Kadu, a dedicated 3rd-year BTech student majoring in Information Technology. I have a strong passion for web development and have built several dynamic websites using HTML, CSS, and JavaScript. My expertise in front-end development allows me to create responsive, user-friendly websites with a focus on both functionality and design. Alongside my technical skills, I excel in time management, ensuring I meet deadlines without compromising on quality. I am hardworking, constantly striving to improve my skills and stay updated with the latest industry trends. Additionally, I have developed strong leadership qualities through academic projects, where I effectively led teams to successful outcomes. I am eager to continue learning and contribute to innovative tech projects in the future.</p>
+             <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+             </div>
+             <div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>UI/UX</span><br>Designing Web interfaces</li>
+                  <li><span>Front End development</span><br>Front-End development</li>
+                  <li><span>C/C++</span><br>Programming Languages</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>2024-Current</span><br>Internship at Info-Oasis of Web Development</li>
+                  
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2026</span><br>BTech from GHRCE Nagpur.</li>
+                  <li><span>2022</span><br>12th from Kamla Nehru Nagpur.</li>
+                  <li><span>2020</span><br>10th from Dinanath High School Nagpur.</li>
+                </ul>
+              </div>
+             </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-----------Services---------->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Skills</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-3x fa-solid fa-crop"></i> <br>
+
+         <h3>Front-End Design</h3>
+            <p>Front-end developers use HTML, CSS, and JavaScript to create the graphical user interface (GUI) that users interact with. They also ensure that the site is easy to navigate and intuitive for the user</p>
+            <a href="#" >learn more</a>
+        </div>
+        <div>
+          <i class=" fa-3x fa-solid fa-list-check"></i><br>
+          <h3>Project Management</h3>
+            <p>Project management is the process of planning, organizing, and executing tasks to achieve project goals within a defined time and budget.</p>
+             <a href="#" >learn more</a>
+         </div>
+         <div>
+          <i class=" fa-3x fa-solid fa-code"></i><br>
+          <h3>Projects on C/C++</h3>
+             <p> C is function-driven procedural language with no support for objects and classes, whereas C++ is a combination of procedural and object-oriented programming languages.</p>
+             <a href="#" >learn more</a>
+         </div>
+      </div>
+    </div>
+  </div>
+<!---------portfolio-------------->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Projects</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="work1.png" height="450" width="380"><br>
+        <div class="layer">
+         <h3>Online Calculator</h3><br>
+            <p>I developed a fully functional calculator using HTML, CSS, and JavaScript. The HTML structure defines the layout, CSS styles the interface with a modern look, and JavaScript handles the calculation logic and user interactions. This project demonstrates my ability to integrate these technologies to create an interactive and responsive web application.</p>
+            <a href="calculator.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="work2.avif" height="450" width="380"><br>
+        <div class="layer">
+          <h3>E-commerce Website</h3><br>
+            <p>I created an e-commerce website for a clothing brand using HTML, CSS, and JavaScript. The HTML provides the structure for product listings and user interactions, CSS styles the site with a sleek and appealing design, and JavaScript enables dynamic features like product filtering and shopping cart functionality. This project showcases my skills in building a complete, responsive online store with an engaging user experience.</p>
+             <a href="netose.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+         </div>
+      </div>
+      <div class="work">
+        <img src="work4.png" height="450" width="380"><br>
+        <div class="layer">
+          <h3>Spotify Clone</h3><br>
+          <p>I created an e-commerce website for a clothing brand using HTML, CSS, and JavaScript. The HTML provides the structure for product listings and user interactions, CSS styles the site with a sleek and appealing design, and JavaScript enables dynamic features like product filtering and shopping cart functionality. This project showcases my skills in building a complete, responsive online store with an engaging user experience.</p>
+             <a href="spotify.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+         </div>
+      </div>
+    </div>
+<a href="#" class="btn">See more</a>
+  </div>
+</div>
+<!-----contact------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+         <h1 class="sub-title">Contact Me</h1>
+         <p><i class="fa-regular fa-envelope"></i>kadusakshi5@gmail.com</p>
+         <p><i class="fa-solid fa-phone"></i>876675545346</p>
+         <div class="social-icons">
+          <a href="https://www.linkedin.com/in/sakshi-kadu-156052301"><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+         </div>
+         <a href="resume .pdf" download class="btn btn2">Download Resume</a>
+      </div>
+      <div class="contact-right">
+        <form onsubmit="success()">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email"  placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p> copyright &copy; Sakshi Kadu. All rights reserved.</p>
+  </div>
+</div>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+
+  </script>
+  <script>
+    var sidemenu= document.getElementById("sidemenu");
+    function openmenu(){
+      sidemenu.style.right="0";
+    }
+    function closemenu(){
+      sidemenu.style.right="-200px";
+    }
+  </script>
+  <script>
+    function success(){
+      alert("Message Sent Successfully!!!")
+    }
+  </script>
+</body>
+</html>
